@@ -11,4 +11,4 @@ consign()
 
 app.db = db
 
-app.listen( process.PORT, () => console.log('Server OK!') )
+app.listen( process.env.PORT, () => console.log('Server OK!') )
